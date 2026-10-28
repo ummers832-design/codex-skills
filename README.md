@@ -19,7 +19,8 @@
 
 | skill | 一句话 | 状态 |
 |---|---|---|
-| [sdd-batch](./sdd-batch) | 分批 SDD（Software Design Document）开发规范骨架：判断是否需要 SDD、按业务路径分批、编码前清单对照 | 已发布 |
+| [sdd-batch](./sdd-batch) | 定位 PRD 已拆分任务、检查原始范围边界，修订任务文件与分批 SDD | 已发布 |
+| [prd-writer](./prd-writer) | 从多形式需求生成客户版、简版、详细版与技术 PRD，支持迭代、功能拆分及 SDD 衔接 | 已发布 |
 
 ## 安装到本机 `~/.codex/skills/`
 
@@ -27,6 +28,7 @@
 # 整体 clone 后挑需要的
 git clone git@github.com:ummers832-design/codex-skills.git ~/codex-skills-src
 ln -sfn ~/codex-skills-src/sdd-batch ~/.codex/skills/sdd-batch
+ln -sfn ~/codex-skills-src/prd-writer ~/.codex/skills/prd-writer
 ```
 
 > 用 symlink 而不是拷贝：以后仓库里改了 `sdd-batch/` 直接生效，不用重新链接。

@@ -1,3 +1,3 @@
 interface:
-  display_name: "Sdd Batch"
-  short_description: "Help with Sdd Batch tasks"
+  display_name: "任务修订与分批 SDD"
+  short_description: "按需求定位 PRD 拆分任务，检查原始范围边界，修订任务文件与分批 SDD"

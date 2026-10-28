@@ -1,0 +1,3 @@
+interface:
+  display_name: "PRD、功能拆分与分批 SDD"
+  short_description: "生成客户版、简版、详细版和技术 PRD，拆分可验收功能并衔接分批 SDD"
